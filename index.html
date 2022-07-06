@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="viewport">
+    <header class="header">
+      <div class="header__container container"><img class="header__logo" src="./img/logo.svg">
+        <ul class="header-nav" data-nav>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Home</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Menu</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">About</a></li>
+          <li class="header-nav__item"><a class="header-nav__link header-nav__link--active" href="#">Resturants</a></li>
+          <li class="header-nav__item"><a class="header-nav__link" href="#">Contact</a></li>
+        </ul>
+        <button class="header__burger" data-burger aria-expanded="false"><span></span></button>
+        <ul class="header-menu">
+          <li class="header-menu__item"><a class="header-menu__link" href="#"><img class="header-menu__img header-menu__img--profile" src="./img/profile.svg"></a></li>
+          <li class="header-menu__item"><a class="header-menu__link" href="#"><img class="header-menu__img header-menu__img--cart" src="./img/cart.svg"></a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container container">
+        <div class="main__content">
+          <h1 class="main__title">Tasty Meals made for You</h1>
+          <p class="main__subtitle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p><a class="main__button">View Menu 🍲</a>
+        </div>
+      </div>
+    </main>
+    <section class="achievements">
+      <div class="achievements__container container">
+        <ul class="achievements__list"> 
+          <li class="achievements__item"><span class="achievements__title">100%</span><span class="achievements__descr">User satisfaction</span></li>
+          <li class="achievements__item"><span class="achievements__title">150+</span><span class="achievements__descr">Resturants</span></li>
+          <li class="achievements__item"><span class="achievements__title">24/7</span><span class="achievements__descr">Customer support</span></li>
+          <li class="achievements__item"><span class="achievements__title">250K</span><span class="achievements__descr">Users served</span></li>
+        </ul>
+      </div>
+    </section>
     <section class="meals"> 
       <div class="meals__container container">
         <div class="meals-top"> 
