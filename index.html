@@ -17,7 +17,7 @@
           <li class="header-nav__item"><a class="header-nav__link header-nav__link--active" href="#">Resturants</a></li>
           <li class="header-nav__item"><a class="header-nav__link" href="#">Contact</a></li>
         </ul>
-        <button class="header__burger" data-burger aria-expanded="false"><span></span></button>
+        <button class="header__burger" data-burgerHeader aria-expanded="false"><span></span></button>
         <ul class="header-menu">
           <li class="header-menu__item"><a class="header-menu__link" href="#"><img class="header-menu__img header-menu__img--profile" src="./img/profile.svg"></a></li>
           <li class="header-menu__item"><a class="header-menu__link" href="#"><img class="header-menu__img header-menu__img--cart" src="./img/cart.svg"></a></li>
@@ -46,7 +46,8 @@
       <div class="meals__container container">
         <div class="meals-top"> 
           <h2 class="meals-top__title">Simple Meals for You</h2>
-          <div class="meals-top__filters">
+          <button class="meals-burger" data-burgerMeals> <span class="meals-burger__text" data-burgerText>Filter</span><span class="meals-burger__line" data-burgerLine></span><span class="meals-burger__cross" data-burgerCross></span></button>
+          <div class="meals-top__filters" data-filterList>
             <button class="meals-top__item">Beverage</button>
             <button class="meals-top__item">Desert</button>
             <button class="meals-top__item">Dinner</button>
